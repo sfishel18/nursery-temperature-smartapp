@@ -1,0 +1,5 @@
+{
+    "pages.mainPage.name": "Nursery Temperature Monitor",
+    "pages.mainPage.settings.contactSensor.name": "Sensor",
+    "pages.mainPage.settings.lights.name": "Light"
+}

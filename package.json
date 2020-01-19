@@ -1,0 +1,23 @@
+{
+  "name": "nursery-temperature-smartapp",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gcloud functions deploy st-handler --project nursery-temperature-smartapp --runtime nodejs10 --entry-point index --trigger-http --allow-unauthenticated",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sfishel18/nursery-temperature-smartapp.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sfishel18/nursery-temperature-smartapp/issues"
+  },
+  "homepage": "https://github.com/sfishel18/nursery-temperature-smartapp#readme",
+  "dependencies": {
+    "@smartthings/smartapp": "^1.15.1"
+  }
+}
